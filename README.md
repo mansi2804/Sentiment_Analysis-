@@ -38,7 +38,9 @@ python app.py
 Below are screenshots of my projects:
 
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS1.png)
+<br>
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS2.png)
+<br>
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS3.png)
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS4.png)
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS5.png)
