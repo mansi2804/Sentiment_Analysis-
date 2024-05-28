@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>Analysis Result</h1>
+            <div class="result">
+                <p>The sentiment is: {{ sentiment }}</p>
+                <p>Probability is : {{ percentage }}%</p>
+            </div>
+            <div class="visualization">
+                <canvas id="sentimentChart"></canvas>
+            </div>
+            <a href="/" class="btn1">Back to Input</a>
+        </div>
+    </div>
+    <script>
+        var ctx = document.getElementById('sentimentChart').getContext('2d');
+        var sentimentChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Sentiment'],
+                datasets: [{
+                    label: 'Sentiment Analysis',
+                    data: [{{ percentage }}],
+                    backgroundColor: [
+                        '{{ "green" if sentiment == "Positive" else "red" }}'
+                    ],
+                    borderColor: [
+                        'rgba(75, 192, 192, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Sentiment'
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            max: 100
+                        },
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Probability (%)'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false
+                }
+            }
+        });
+    </script>
+    
+    
+    
+    
+    
+</body>
+</html>
