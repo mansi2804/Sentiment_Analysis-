@@ -20,8 +20,8 @@ This project is a web application for sentiment analysis of text input. It utili
 
 ## Setup
 
-1. Clone the repository:
-git clone <repository-url>
+1. Clone the repository: 
+git clone "repository-url"
 2. Install the required dependencies:
 pip install -r requirements.txt
 3. Run the Flask server:
