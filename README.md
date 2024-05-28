@@ -36,5 +36,13 @@ python app.py
 3. View the sentiment analysis result and visualization on the results page.
 
 Below are screenshots of my projects:
-![Alt Text](Output_Screenshots/SS1.png)
+
+![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS1.png)
+![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS2.png)
+![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS3.png)
+![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS4.png)
+![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS5.png)
+![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS6.png)
+![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS7.png)
+
 
