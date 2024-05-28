@@ -42,9 +42,13 @@ Below are screenshots of my projects:
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS2.png)
 <br>
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS3.png)
+<br>
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS4.png)
+<br>
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS5.png)
+<br>
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS6.png)
+<br>
 ![Alt Text](https://github.com/mansi2804/Sentiment_Analysis-/blob/main/Output_Screenshots/SS7.png)
 
 
