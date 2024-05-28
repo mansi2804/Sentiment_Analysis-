@@ -35,4 +35,6 @@ python app.py
 2. Click the "Analyze" button to perform sentiment analysis.
 3. View the sentiment analysis result and visualization on the results page.
 
+Below are screenshots of my projects:
+![Alt Text](Output_Screenshots/SS1.png)
 
